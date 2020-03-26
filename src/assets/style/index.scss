@@ -1,0 +1,22 @@
+@import "./element-variables.scss";
+@import "./variables.scss";
+@import "./transition.scss";
+
+label {
+  font-weight: 700;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
