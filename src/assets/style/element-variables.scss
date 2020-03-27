@@ -1,0 +1,30 @@
+/* theme color */
+$--color-primary: #1890ff;
+$--color-success: #13ce66;
+$--color-warning: #FFBA00;
+$--color-danger: #ff4949;
+// $--color-info: #1E1E1E;
+
+$--button-font-weight: 400;
+
+// $--color-text-regular: #1f2d3d;
+
+$--border-color-light: #dfe4ed;
+$--border-color-lighter: #e6ebf5;
+
+$--table-border: 1px solid #dfe6ec;
+
+/* icon font path, required */
+$--font-path: '//cdn.jsdelivr.net/npm/element-ui@2.13.0/lib/theme-chalk/fonts';
+
+html{
+  height: 100%;
+}
+body{
+  margin: 0;
+}
+
+/* 改变 icon 字体路径变量，必需 */
+//$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "//cdn.jsdelivr.net/npm/element-ui@2.13.0/lib/theme-chalk/index.css";
